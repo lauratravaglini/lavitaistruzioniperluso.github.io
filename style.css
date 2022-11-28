@@ -121,7 +121,13 @@ main {
 h1 {
     font-family: 'Noto Serif Display', serif;
     font-size: 140px;
+    font-weight:200;
     color: #585858;
+    text-align: left !important;
+}
+
+span {
+    font-style: italic;
 }
 
 h2 {
@@ -181,6 +187,11 @@ section {
 .testimonial:nth-child(7) {
     border: solid 1px #444444;
 
+}
+
+.testimonial:nth-child(3):hover, .testimonial:nth-child(4):hover, .testimonial:nth-child(7):hover {
+    background-color: #607d94 !important;
+    color: #f1ede9 !important;
 }
 
 
